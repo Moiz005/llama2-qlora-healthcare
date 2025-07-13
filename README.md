@@ -113,8 +113,3 @@ To load gated models like LLaMA 2 from Hugging Face:
 ## License
 
 This project is for educational and research purposes only. Always consult licensed professionals for real medical advice.
-
-```
-
-
-```
