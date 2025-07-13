@@ -1,17 +1,17 @@
 ````markdown
-# 🧠 MedGPT-QLoRA
+# MedGPT-QLoRA
 
 > Fine-tuning LLaMA 2 on a medical Q&A dataset using QLoRA in Google Colab
 
 ---
 
-## 📌 Overview
+## Overview
 
 **MedGPT-QLoRA** is a lightweight, resource-efficient fine-tuning pipeline for adapting [LLaMA 2 7B Chat](https://huggingface.co/NousResearch/Llama-2-7b-chat-hf) to the medical domain. Using QLoRA and 4-bit quantization via `bitsandbytes`, this project enables fine-tuning on modest hardware (e.g., Google Colab T4 GPU) with excellent performance on health-related queries.
 
 ---
 
-## 📂 Dataset
+## Dataset
 
 - **Name**: [HealthCareMagic-100k](https://www.kaggle.com/datasets/gunman02/health-care-magic)
 - **Source**: Kaggle
@@ -19,16 +19,16 @@
 
 ---
 
-## 🛠️ Features
+## Features
 
-- 🦙 Fine-tunes LLaMA 2 7B Chat with `SFTTrainer` from Hugging Face's TRL library
-- 💡 Uses LoRA for parameter-efficient tuning via the `peft` library
-- 🔧 Runs on consumer GPUs using 4-bit quantization with `bitsandbytes`
-- 🩺 Tailors the model for medical assistant-style conversations
+- Fine-tunes LLaMA 2 7B Chat with `SFTTrainer` from Hugging Face's TRL library
+- Uses LoRA for parameter-efficient tuning via the `peft` library
+- Runs on consumer GPUs using 4-bit quantization with `bitsandbytes`
+- Tailors the model for medical assistant-style conversations
 
 ---
 
-## 📦 Tech Stack
+## Tech Stack
 
 - [Transformers](https://github.com/huggingface/transformers)
 - [PEFT (LoRA)](https://github.com/huggingface/peft)
@@ -38,14 +38,14 @@
 
 ---
 
-## 🚀 Getting Started
+## Getting Started
 
 ### 1. Clone the repository
 
 ```bash
 git clone https://github.com/your-username/medgpt-qlora.git
 cd medgpt-qlora
-````
+```
 
 ### 2. Install dependencies
 
