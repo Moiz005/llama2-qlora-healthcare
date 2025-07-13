@@ -1,4 +1,3 @@
-````markdown
 # MedGPT-QLoRA
 
 > Fine-tuning LLaMA 2 on a medical Q&A dataset using QLoRA in Google Colab
@@ -45,7 +44,7 @@
 ```bash
 git clone https://github.com/your-username/medgpt-qlora.git
 cd medgpt-qlora
-````
+```
 
 ### 2. Install dependencies
 
